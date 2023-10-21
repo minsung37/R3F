@@ -1,5 +1,5 @@
 import './App.css'
-import ThreeDemensionCanvas from './component/3DCanvas'
+import ThreeDemensionCanvas from './lecture/3DCanvas'
 
 function App() {
 

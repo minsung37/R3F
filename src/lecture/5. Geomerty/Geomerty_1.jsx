@@ -7,7 +7,7 @@ const MyBox = (props) => {
   </mesh>
 }
 
-const MyElement3D5 = () => {
+const MyElement3D = () => {
 
   // drei : RF3에서 사용할 수 있는 유용한 컴포넌트들을 모아논 라이브러리
   // npm i @react-three/drei
@@ -36,4 +36,4 @@ const MyElement3D5 = () => {
 }
 
 
-export default MyElement3D5;
+export default MyElement3D;

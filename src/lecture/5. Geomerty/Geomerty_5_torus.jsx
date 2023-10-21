@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
 
-const MyElement3D5 = () => {
+const MyElement3D = () => {
 
   const refMesh = useRef();
   const refWireMesh = useRef();
@@ -47,4 +47,4 @@ const MyElement3D5 = () => {
 }
 
 
-export default MyElement3D5;
+export default MyElement3D;

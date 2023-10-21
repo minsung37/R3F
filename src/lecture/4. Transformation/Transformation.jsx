@@ -3,7 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import * as THREE from "three";
 
-const MyElement3D4 = () => {
+const MyElement3D = () => {
 
   const refMesh = useRef();
 
@@ -51,4 +51,4 @@ const MyElement3D4 = () => {
 }
 
 
-export default MyElement3D4;
+export default MyElement3D;
