@@ -1,6 +1,5 @@
 import { OrbitControls } from "@react-three/drei"
 import { useEffect, useRef } from "react";
-import * as THREE from "three";
 
 
 const MyElement3D = () => {
@@ -15,23 +14,14 @@ const MyElement3D = () => {
   return(
     <>
       <OrbitControls />
-
+    
       <ambientLight intensity={0.2} />
       <directionalLight position={[0, 1, 0]} />
       <directionalLight position={[1, 2, 8]} intensity={0.7}/>
-    
+
       <mesh ref={mesh1} position={[0.7, 0, 0]}>
-        <boxGeometry />
-        <meshBasicMaterial 
-          visible={true}
-          transparent={false}
-          opacity={1}
-          depthTest={true}
-          depthWrite={true}
-          side={THREE.FontSide}
-          color="#ffff00"
-          wireframe={false}
-          />
+        <torusKnotGeometry args={[0.5, 0.15, 256, 128]}/>
+        <meshNormalMaterial />
       </mesh>
 
       <mesh ref={mesh2} position={[-0.7, 0, 0]}>
