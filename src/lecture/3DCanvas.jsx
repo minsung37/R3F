@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import MyElement3D from "./6. Material/Material_2_7_Shader";
+import MyElement3D from "./6. Material/Material_3_6_alphaMap"
 
 
 const ThreeDemensionCanvas = () => {

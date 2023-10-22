@@ -4,6 +4,8 @@ body {
 }
 
 #root {
+  /* 3_1_에 사용 */
+  /* background: #000;  */
   width: 100%;
   height: 100vh;
 }
