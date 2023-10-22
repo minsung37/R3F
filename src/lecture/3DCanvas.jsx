@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import MyElement3D from "./8. Camera/Camera_3_Orthography"
+import MyElement3D from "./10. 3Dmodel/My3DModel"
 
 
 const ThreeDemensionCanvas = () => {
@@ -20,12 +20,31 @@ const ThreeDemensionCanvas = () => {
         // }}
 
         // orthography camera
-        orthographic
+        // orthographic
+        // camera={{
+        //   near: 0.1,
+        //   far: 20,
+        //   zoom: 100,
+        //   position:[7, 7, 0]
+        // }}
+
+        // shadow
+        // shadows
+        // camera={{ 
+        //   near: 1, far: 100, position:[7, 7, 0]
+        // }}
+
+        // shadow_3
+        // shadows="variance"
+        // camera={{ 
+        //   near: 1, far: 100, position:[7, 7, 0]
+        // }}
+
+        // 3Dmodel
         camera={{
-          near: 0.1,
-          far: 20,
-          zoom: 100,
-          position:[7, 7, 0]
+          near: 1,
+          far: 100,
+          position: [7, 7, 0]
         }}
       >
         <MyElement3D/>
